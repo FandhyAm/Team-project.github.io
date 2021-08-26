@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: cadetblue;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.log {
+  width: 35px;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+.top-wrapper {
+  background-image: url(image/belajar.jpg);
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top-wrapper h1 {
+  opacity: 0.8;
+}
+.top-wrapper p {
+  opacity: 0.6;
+  margin-bottom: 20px;
+}
+.btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #fff;
+  display: inline-block;
+  border-radius: 4px;
+  opacity: 0.9;
+}
+.btn:hover {
+  opacity: 1;
+}
+.learn {
+  background-color: #55acee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+body,
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #111428;
+}
+
+button {
+  cursor: pointer;
+}
+
+.text_align_center {
+  text-align: center;
+}
+
+.blue_bt {
+  width: 265px;
+  height: 65px;
+  background: #0e24cb;
+  color: #fff;
+  text-align: center;
+  line-height: 65px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 45px auto 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  box-shadow: 0 7px #111428;
+  border-radius: 5px;
+}
+
+.cours + h3 {
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+.cours img {
+  max-width: 100%;
+}
+
+.cours_timging_bg {
+  background: url("images/cours_bg.png");
+  min-height: 780px;
+  width: 100%;
+  margin-top: 50px;
+}
+.badan {
+  text-align: center;
+  padding: 20px;
+}
+.badan h2 {
+  font-size: 35px;
+  font-weight: normal;
+}
+.badan p {
+  font-size: 15px;
+  padding: 50 100px;
+}
+.badan h1 {
+  margin-top: 50px;
+}
+.badan span {
+  color: blue;
+}
+
+/* Bagian footer */
+/* REMOVE THIS, USE YOUR OWN  */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, Sans-serif;
+  background-color: #070617;
+}
+.dummy_page {
+  height: 200px;
+  width: 100%;
+  background-color: #f0f0f0;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 60px 0px;
+}
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #070617;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+}
+.clearfix {
+  clear: both;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footer .col {
+    width: 50%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 50%;
+  }
+  .logo-wrapper {
+    width: 958px;
+    margin-bottom: 40px;
+  }
+  .logo {
+    padding: auto;
+  }
+}
+
+@media (max-width: 670px) {
+  .container {
+    width: 400px;
+    text-align: center;
+  }
+}
